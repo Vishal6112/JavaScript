@@ -18,4 +18,10 @@ console.log(a1+a2)
 let ab ="vikas"
 let bc="datta"
 
+
 console.log(`${ab} and ${bc} are brothers`)
+
+let c1=abc.toUpperCase()
+console.log(abc.length)
+console.log(abc.charAt(5))
+console.log(c1)
