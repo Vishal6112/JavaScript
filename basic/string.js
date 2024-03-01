@@ -25,3 +25,5 @@ let c1=abc.toUpperCase()
 console.log(abc.length)
 console.log(abc.charAt(5))
 console.log(c1)
+
+console.log(abc.indexOf('h'))
