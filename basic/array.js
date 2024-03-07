@@ -23,8 +23,28 @@ let arr3=arr.concat(arr1)
 // console.log(arr3)
 
 
-console.log(arr.includes(5))
+// console.log(arr.includes(5))
 
-console.log(arr.indexOf(5))
+// console.log(arr.indexOf(5))
 
-console.log(arr3.indexOf(2,3))
+// console.log(arr3.indexOf(2,3))
+
+//pushing one array in anoter array
+const name=['abc','pqr','xyz']
+const name1=['lmn','mno']
+// name.push(name1)
+// console.log(name)
+
+
+// const nameres=name.concat(name1)
+// console.log(nameres)
+
+//spread method
+
+const allname=[...name,...name1]
+// console.log(allname)
+
+const newarray = [1,2,3,[4,5],[6,7,[8,9,[10,11]]]]
+
+ const a1=newarray.flat(Infinity)
+ console.log(a1)
